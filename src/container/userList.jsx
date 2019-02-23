@@ -15,6 +15,7 @@ class userList extends Component {
         }    
         return (
             <React.Fragment>
+                <h2>Users</h2>
                 <div>
                     <Input change={this.props.handleUserInput} value={this.props.userInputValue} />
                     {button}
